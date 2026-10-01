@@ -1,0 +1,42 @@
+.contant_table{
+    height: 80vh;
+    width: 90vw;
+    overflow-y: auto;
+}
+
+.contant_table::-webkit-scrollbar {
+    display: none;
+}
+/*
+.contant_table::-webkit-scrollbar-thumb {
+    background-color: var(--skyblue); 
+}
+
+.contant_table::-webkit-scrollbar-track {
+}
+*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--skyblue);
+}
+
+
+table th, td{
+    width: calc(100%/9);
+    padding: 0.3em;
+    border-bottom: 1px solid var(--skyblue);
+    text-align: center;
+}
+
+.table_head{
+    position: sticky;
+    top: 0;
+    border: 1px solid var(--skyblue);
+    background-color: var(--skyblue);
+    color: var(--black);
+}
+
+.table_body{
+    height: 50vh;
+}

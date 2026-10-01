@@ -1,0 +1,10 @@
+:root {
+    --black: rgb(14, 16, 24);
+    --blue: rgb(50, 130, 183);
+    --skyblue: rgb(187, 225, 250);
+    --white: rgb(255, 255, 255);
+    --green: rgb(89, 187, 93);
+    --red: rgb(191, 63, 76);
+    --yellow: rgb(205, 196, 100);
+    --orange: rgb(238, 158, 69); 
+}
